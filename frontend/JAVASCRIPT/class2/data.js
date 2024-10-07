@@ -49,6 +49,11 @@ let age=false;
 console.log(typeof madhu);
 console.log(typeof age);
 
+//string
+let nam="madhu";
+let city="Bbsr";
+console.log(nam + city);
+
 
 
 
