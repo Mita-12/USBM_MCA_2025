@@ -55,45 +55,9 @@ let city="Bbsr";
 console.log(nam + city);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//let age=25;
-//let collage="usbm";
-//let roll_no=55;
-//let batch=MCA_2ndyr;
-//console.log('My name is:'${name},'age is :'${age},'collage is:'${collage},'roll no:'${roll_no},'batch'${batch});
+let name1="Madhumita panda";
+let age1=25;
+let collage="usbm";
+let roll_no=55;
+let batch="MCA_2ndyr";
+//console.log(My name is: ${name},'age is : ${age}','collage is: ${collage}','roll no: ${roll_no}','batch ${batch}') ; ////
