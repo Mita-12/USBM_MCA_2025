@@ -52,18 +52,21 @@ let end=27;
 //To find out the number [(end+start)+1]
 let totalno=(end+start)+1;
 console.log(Math.random()*totalno+start);
+let random_number = Math.floor(Math.random() * totalno + start);
+// console.log(random_number);
+
 
 //Date 
 //To create a Date object
-let date =new date();
-console.log(date);
-console.log(date.toIOstring());
-console.log(date.getFullYear());
-console.log(date.getMonth());
-console.log(date.getDate());
-console.log(date.getHours());
-console.log(date.getMintus());
-console.log(date.getSecond());
-console.log(date.getMonth()+1);
-console.log(date.getDay());
-console.log(date.getDay()+1);
+let date = new Date();
+console.log(date); 
+console.log(date.toISOString()); 
+
+console.log(date.getFullYear()); 
+console.log(date.getMonth()); 
+console.log(date.getMonth() + 1); 
+console.log(date.getDate()); 
+console.log(date.getHours()); 
+console.log(date.getMinutes());  
+console.log(date.getSeconds());  
+console.log(date.getDay());  
