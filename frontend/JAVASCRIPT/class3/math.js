@@ -215,6 +215,63 @@ case 0://case value
 }
 
 
+//Usere input
+
+
+const readline=require(readline);
+const r1=readline.createInterface({
+    input:process,stdin,
+    output:process,stdout,
+});
+let month1;
+r1.question("enter the month no.",(input)=>{
+    month1=parseInt(input);
+    switch(month)
+    {
+        case 0://case value
+         console.log("jan");
+         break;
+         case 1://case value
+         console.log("feb ");
+         break;
+         case 2://case value
+         console.log("march");
+         break;
+         case 3://case value
+         console.log("April ");
+         break;
+         case 4://case value
+         console.log("May ");
+         break;
+         case 5://case value
+         console.log("june ");
+         break;
+         case 6://case value
+         console.log("July ");
+         break;
+         case 7://case value
+         console.log("Aug ");
+         break;
+         case 8://case value
+         console.log("Sept ");
+         break;
+         case 9://case value
+         console.log("Oct ");
+         break;
+         case 10://case value
+         console.log("Nove ");
+         break;
+         case 11://case value
+         console.log("Dec ");
+         break;
+         default:
+         console.log("this is not a month ");
+         break;
+    }
+})
+
+
+
 
 
 
