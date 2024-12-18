@@ -40,7 +40,7 @@ console.log("Global:", num); // print 11
 
 // Ex: Asking for user to the correct input
 
-let userAns;
+/* let userAns;
 
 do {
   userAns = prompt("What is the capital of Odisha?");
@@ -49,4 +49,35 @@ do {
 
 console.log("Correct");
 
-console.log("Bhubanewsar" !== "Bhubanewsar"); // true
+console.log("Bhubanewsar" !== "Bhubanewsar"); // true   */
+
+
+
+
+// program for a simple calculator
+
+// take the operator input
+const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+let result;
+
+// using if...else if... else
+if (operator == '+') {
+    result = number1 + number2;
+}
+else if (operator == '-') {
+    result = number1 - number2;
+}
+else if (operator == '*') {
+    result = number1 * number2;
+}
+else {
+    result = number1 / number2;
+}
+
+// display the result
+console.log(`${number1} ${operator} ${number2} = ${result}`);
