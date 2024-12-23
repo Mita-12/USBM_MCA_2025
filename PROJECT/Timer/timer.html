@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer App</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="timer">
+      <div class="circle">
+        <div id="time-display">00:00:00</div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="btn btn-outline-secondary">start</button>
+        <button id="pause-btn" class="btn btn-outline-secondary">Pause</button>
+        <button id="add-min-btn" class="btn btn-outline-secondary">+1 min</button>
+      </div>
+      <div class="last-timers">
+        <p>last timers</p>
+        <ul>
+          <li>5 min</li>
+          <li>3 min</li>
+          <li>25 min</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="timer.js"></script>
+</body>
+
+</html>
